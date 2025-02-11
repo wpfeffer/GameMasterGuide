@@ -1,0 +1,216 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <StartupObject>GameMasterGuide.win.Program</StartupObject>
+    <AssemblyName>GameMasterGuide</AssemblyName>
+    <RootNamespace>GameMasterGuide</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 01 (115 x 115).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 01.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 01.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 02 (115 x 115).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 02.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 02.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 03 (115 x 115).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 03.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 03.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 04 (115 x 115).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 04.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 04.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 05 (115 x 115).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 05.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 05.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 06 (115 x 115).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 06.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 06.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 07 (115 x 115).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 07.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 07.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 08 (115 x 115).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 08.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 08.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 09 (115 x 115).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 09.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 09.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 10 (115 x 115).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 10.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 10.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 11 (115 x 115).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 11.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 11.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 12 (115 x 115).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 12.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 12.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 13 (115 x 115).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 13.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 13.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 14 (115 x 115).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 14.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 14.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 15 (115 x 115).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 15.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 15.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 16 (115 x 115).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 16.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 16.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 17 (115 x 115).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 17.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 17.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 18 (115 x 115).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 18.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 18.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 19 (115 x 115).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 19.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 19.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 20 (115 x 115).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 20.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DungeonDefinitionFiles\TheLairOfShivaTheDestroyer\The Lair of Shiva the Destroyer 20.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DungeonDefinitionFiles\TheSecretPitofIllfangtheKoboldLord\" />
+  </ItemGroup>
+
+</Project>
