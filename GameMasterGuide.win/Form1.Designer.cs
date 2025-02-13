@@ -1,4 +1,4 @@
-﻿namespace GameMasterGuide.win
+﻿namespace GameMasterGuide
 {
     partial class Form1
     {
